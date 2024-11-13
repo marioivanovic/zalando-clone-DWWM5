@@ -42,5 +42,44 @@ table {
 	border-spacing: 0;
 }
 
-/* DEBUT DE MON STYLE */
+/* DEBUT DE MON STYLE : MOBILE FIRST */
 
+body{
+	background: white;
+}
+
+.navbar-mobile{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logos-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logo-nav{
+	width: 130px;
+	height: 22px;
+}
+
+.icon-nav{
+	width: 24px;
+height: 24px;
+}
+
+hr{
+	width: 100%;
+	background: rgba(38, 38, 37, 0.373);
+	margin: 0;
+}
+
+input{
+	height: 25px;
+	width: 60%;
+}
